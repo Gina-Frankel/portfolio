@@ -1,3 +1,6 @@
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1c15dae-6982-4926-8f50-fc688f9a36ad/deploy-status)](https://app.netlify.com/sites/gina-frankel/deploys)
+
 Deployed at: 
 https://gina-frankel.netlify.app/
 
