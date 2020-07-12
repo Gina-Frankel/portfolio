@@ -2,6 +2,7 @@ import React from 'react'
 import {shallow} from "enzyme"
 import { render } from '@testing-library/react';
 import Projects from "./ProjectCardContainer"
+import ProjectCard from "./ProjectCard"
 
 it("renders correctly", () => {
 
@@ -40,3 +41,14 @@ it("renders Projects", () => {
           const wrapper = shallow(<Projects />)
           expect(wrapper.text()).toContain('Mission Ctrl')
       })
+
+      it("renders a ProjectCard",()=>{
+        const wrapper = shallow(<Projects/>)
+        const projectCard = <ProjectCard/>;
+
+        expect(wrapper.containsMatchingElement(projectCard)).toEqual(true)
+
+
+      })
+
+      //expect(wrapper.containsMatchingElement(statueMenuItem)).toEqual(true);
