@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import '../projects/Projects'
-import Portfolio from '../projects/Projects';
+import Projects from '../projects/Projects';
 import {
   BrowserRouter as Router,
   Switch,
@@ -31,7 +31,7 @@ function App() {
           <Router>
           <div>
             <li>
-              <link to='/Projects'>Projects</link>
+              <Link to='/Projects'>Projects</Link>
             </li>
             <Route path='/Projects' >
               <Projects/> 
