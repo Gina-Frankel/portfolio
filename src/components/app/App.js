@@ -7,20 +7,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
-        <p>
-          
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/Gina-Frankel/CV"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github CV
-        </a>
+      
       </header>
-      <div><Portfolio/> </div>
+      <body>
+      <p>
+
+      </p>
+      <a
+        className="App-link"
+        href="https://github.com/Gina-Frankel/CV"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Github CV
+          </a>
+      <div><Portfolio /> </div>
+      </body>
     </div>
   );
 }
