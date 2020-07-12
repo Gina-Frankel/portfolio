@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import '../portfolio/Portfolio'
+import Portfolio from '../portfolio/Portfolio';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           Github CV
         </a>
       </header>
+      <div><Portfolio/> </div>
     </div>
   );
 }
