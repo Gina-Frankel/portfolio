@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import '../projects/Projects'
-import Projects from '../projects/Projects';
+import '../projects/ProjectCardContainer'
+import HomePage from '../homepage/Homepage'
+import Projects from '../projects/ProjectCardContainer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,9 +17,8 @@ function App() {
 
       </header>
       <body>
-        <p>
+      {/* <div><HomePage/></div> */}
 
-        </p>
         <a
           className="App-link"
           href="https://github.com/Gina-Frankel/CV"
@@ -27,6 +27,7 @@ function App() {
         >
           Github CV
           </a>
+         
         <div>  
           <Router>
           <div>
@@ -41,6 +42,7 @@ function App() {
         </div>
       </body>
     </div>
+
   );
 }
 
