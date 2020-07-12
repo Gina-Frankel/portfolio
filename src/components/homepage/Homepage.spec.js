@@ -8,4 +8,9 @@ it("renders correctly", () => {
 
     expect(wrapper).toHaveLength(1)
 });
+it("renders correctly", () => {
 
+    const wrapper = shallow(<HomePage/>)
+
+    expect(wrapper.text()).toContain('HomePage')
+});
