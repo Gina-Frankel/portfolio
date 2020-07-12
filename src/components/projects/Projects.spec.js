@@ -1,8 +1,6 @@
 import React from 'react'
 import {shallow} from "enzyme"
 import Projects from "./Projects"
-import React from "react";
-
 
 it("renders correctly", () => {
 
