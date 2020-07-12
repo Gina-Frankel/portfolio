@@ -35,3 +35,8 @@ it("renders Projects", () => {
         )
         expect(wrapper.containsMatchingElement(link)).toEqual(true)
       })
+
+      it("renders the name of the project",()=> {
+          const wrapper = shallow(<Projects />)
+          expect(wrapper.text()).toContain('Mission Ctrl')
+      })
