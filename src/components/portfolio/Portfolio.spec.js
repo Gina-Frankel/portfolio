@@ -8,3 +8,9 @@ it("renders correctly", () => {
 
     expect(wrapper).toHaveLength(1)
 });
+
+it("renders Projects", () => {
+    const wrapper = shallow (<Portfolio/>)
+
+    expect(wrapper.text()).toContain('Projects')
+})
