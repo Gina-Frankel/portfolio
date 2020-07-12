@@ -1,7 +1,9 @@
 import React from 'react'
 
 function ProjectCard(){
-    return 
+    return (
+        <h3>Mission Ctrl</h3>
+    )
     
 }
 
