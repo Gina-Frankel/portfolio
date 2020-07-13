@@ -6,9 +6,9 @@ https://gina-frankel.netlify.app/
 
 ##  User Stories 
 
-### 1.Always available information 
+### 1.General - Always available information 
 ```
-As a a potential employer, 
+As a potential employer, 
 I would like there always to be short summary of person, which includes their values and what is their occupation
 So I know exactly what they are looking  for and what type of person they are 
 ```
@@ -27,7 +27,7 @@ so that I can easily read their CV
 
 ```
 As a a potential employer, 
-I would like easy + constant access to contact information,
+I would like to always have access to a LinkedIn link,
 so that I can easily contact this person 
 ```
 
@@ -62,7 +62,7 @@ I would like to see a summary of each project
 
 2.4
 ```
-As a potential employer,,  
+As a potential employer,
 So that I can inspect the project's source code,  
 I would like a link to it's GitHub repo.
   ```
@@ -81,7 +81,7 @@ I would like to see a screenshot.
 2.6
 
 ```
-As a  potential employer,,  
+As a  potential employer, 
 So that I can see the project in action,  
 I would like a link to where it is deployed.
 ```
@@ -90,36 +90,74 @@ I would like a link to where it is deployed.
 
 #### 3. Interests 
 ```
+As a  potential employer,
+So that I know more about this person as a whole,  
+I would to be able  to click a link which  will show me thier interests.
+```
+
+```
 As a  potential employer,,  
 So that I know more about this person as a whole,  
-I would to learn  about thier interests.
+I would to be able to see  a list of thier interest 
+```
+AC 
+```
+Art
+Design
 ```
 
 
+```
+As a  potential employer,
+So that I know more about this person as a whole,  
+I would to be able to see  details relating to thier interests 
+```
+AC 
 
+```
+Art
+- Painting 
+- Sketching
+```
+
+
+--- CV related information --- 
 ### 4. Education 
 ```
 As a  potential employer,
 So that I can know more about this person's qualification and skills ,  
-I would to know about thier education history.
+I would like a summary of  thier education history.
 ```
 
 ### 5. Experience 
 ```
 As a  potential employer,
 So that I can know more about this person's qualification and skills ,  
-I would to know about thier career history.
+I would like a list  of thier career history, which includes university, grade + date
+```
+
+### 5. Skills 
+```
+As a  potential employer,
+So that I can know more about this person's skills ,  
+I would like to see a list of thier skills.
+```
+
+### 6. Contact
+
+```
+As a a potential employer, 
+I would like  to be able to directly contact this person through sending a form,
+so that I can easily contact this person 
+
 ```
 
 
 
-
-### 6. UI 
-```
-As a potential employer, 
-So that I am not bored by looking at another portfolio website,
-I would like the website to reflect something unique about this person and be interactive 
-```
+## UI 
+- Playful 
+- Interactive 
+- Reflects my personality 
 
 
 
