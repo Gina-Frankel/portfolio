@@ -21,23 +21,22 @@ export function App() {
 
         <div>
           <Router>
-            <div>
+            <p>
               <Link to="/Projects">Projects</Link>
+            </p>
+            <p>
+              <Link to="/Interests"> Interests</Link>
+            </p>
+            <switch>
               <Route path="/Projects">
                 <ProjectCardContainer />
               </Route>
-            </div>
+              <Route path="/Interests">
+                <InterestsContainer />
+              </Route>
+            </switch>
           </Router>
         </div>
-        <Router>
-          <div>
-            <Link to="/Interests"> Interests</Link>
-
-            <Route path="/Interests">
-              <InterestsContainer />
-            </Route>
-          </div>
-        </Router>
       </body>
     </div>
   );
