@@ -4,7 +4,7 @@ import "../projects/ProjectCardContainer";
 import Projects from "../projects/ProjectCardContainer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-function App() {
+export function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
@@ -34,5 +34,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
