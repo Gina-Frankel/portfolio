@@ -1,17 +1,17 @@
 import React from "react";
 import { shallow } from "enzyme";
 import { render } from "@testing-library/react";
-import Projects from "./ProjectCardContainer";
-import ProjectCard from "./ProjectCard";
+import { ProjectCardContainer } from "../index";
+import { ProjectCard } from "../index";
 
 it("renders correctly", () => {
-  const wrapper = shallow(<Projects />);
+  const wrapper = shallow(<ProjectCardContainer />);
 
   expect(wrapper).toHaveLength(1);
 });
 
 it("renders Projects", () => {
-  const wrapper = shallow(<Projects />);
+  const wrapper = shallow(<ProjectCardContainer />);
 
   expect(wrapper.text()).toContain("Projects");
 });
@@ -28,7 +28,7 @@ it("renders Projects", () => {
 //     })
 
 it("renders a ProjectCard", () => {
-  const wrapper = shallow(<Projects />);
+  const wrapper = shallow(<ProjectCardContainer />);
   const projectCard = <ProjectCard />;
 
   expect(wrapper.containsMatchingElement(projectCard)).toEqual(true);

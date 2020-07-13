@@ -1,7 +1,7 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import { ProjectCard } from "../index";
 
-function Projects() {
+export function ProjectCardContainer() {
   return (
     <div>
       Projects
@@ -9,5 +9,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;

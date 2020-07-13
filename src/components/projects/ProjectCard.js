@@ -1,7 +1,7 @@
 import React from "react";
 import projectList from "../../projects";
 
-function ProjectCard() {
+export function ProjectCard() {
   //console.dir(projectList);
   const projects = projectList.map((projectItem, index) => (
     //console.dir(projectItem.name)
@@ -19,5 +19,3 @@ function ProjectCard() {
   //console.dir(projects);
   return <ul>{projects}</ul>;
 }
-
-export default ProjectCard;
