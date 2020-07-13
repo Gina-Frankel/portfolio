@@ -12,6 +12,7 @@ function ProjectCard() {
         GitHub Repo
       </a>
       <p>{projectItem.technologies}</p>
+      <br></br>
     </li>
   ));
   //console.dir(projects);
