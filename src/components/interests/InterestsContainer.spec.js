@@ -6,3 +6,8 @@ it("renders correctly", () => {
   const wrapper = shallow(<InterestsContainer />);
   expect(wrapper).toHaveLength(1);
 });
+
+it("renders first interest", () => {
+  const wrapper = shallow(<InterestsContainer />);
+  expect(wrapper.text()).toContain("Art");
+});
