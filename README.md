@@ -17,36 +17,55 @@ So I can now about this person's values
 
 ### 2.Projects 
 
+2.1
 ```
 As a potential employer  
-I would like to be able the name of all the  projects w  
-So .... 
+I would like to be able to see the name of all the  projects   
+So I know what projects have been created  
+```
+[x]
+
 ```
 
+2.2
+As a potential employer,  
+So that I know what technologies the person has experience with,
+I would like to see a list of  the technologies used.
 ```
+[ ]
 
-
-  > As a potential employer,  
-  > So that I know what technologies the person has experience with,
-  > I would like to see a list of  the technologies used.
-
-
-
+2.3
+```
 As a potential employer, 
 So that  I can know more information about what the project does and why it was made, 
 I would like to see a summary of each project 
+```
+[ ]
 
 
-  > As a  potential employer,,  
-  > So that I can see the project in action,  
-  > I would like a link to where it is deployed.
+2.4
+```
+As a potential employer,,  
+So that I can inspect the project's source code,  
+I would like a link to it's GitHub repo.
+  ```
+[x]
 
+2.5
+```
+As a potential employer,,  
+So I can quickly know what the project looks like ,  
+I would like to see a screenshot.
+  ```
+[ ]
 
-
-  > As a potential employer,,  
-  > So that I can inspect the project's source code,  
-  > I would like a link to it's GitHub repo.
-
+2.6
+```
+As a  potential employer,,  
+So that I can see the project in action,  
+I would like a link to where it is deployed.
+```
+[ ]
 
   ### 3. Links  
 - link to CV 
