@@ -5,20 +5,16 @@ function ProjectCard() {
   //console.dir(projectList);
   const projects = projectList.map((projectItem, index) => (
     //console.dir(projectItem.name)
-    <li key={index}>{projectItem.name}</li>
-  ));
-  //console.dir(projects);
-  return (
-    <div>
-      <ul>{projects}</ul>
-      <a
-        className="Project-Link"
-        href="https://github.com/tommyrharper/mission-ctrl"
-      >
+
+    <li key={index}>
+      <p> {projectItem.name}</p>
+      <a className="Project-Link" href={projectItem.repoLink}>
         GitHub Repo
       </a>
-    </div>
-  );
+    </li>
+  ));
+  //console.dir(projects);
+  return <ul>{projects}</ul>;
 }
 
 export default ProjectCard;
