@@ -6,13 +6,30 @@ https://gina-frankel.netlify.app/
 
 ##  User Stories 
 
-### 1.About section
+### 1.Always available information 
 ```
 As a a potential employer, 
-I would like there to be an about section
-So I can now about this person's values
+I would like there always to be short summary of person, which includes their values and what is their occupation
+So I know exactly what they are looking  for and what type of person they are 
 ```
 
+```
+As a a potential employer, 
+I would like easy + constant access to links to github,
+so that I can easily see thier coding skills 
+```
+
+```
+As a a potential employer, 
+I would like easy + constant access to links to CV,
+so that I can easily read their CV
+```
+
+```
+As a a potential employer, 
+I would like easy + constant access to contact information,
+so that I can easily contact this person 
+```
 
 
 ### 2.Projects 
@@ -71,13 +88,14 @@ I would like a link to where it is deployed.
 [ ]
 
 
-
 #### 3. Interests 
 ```
 As a  potential employer,,  
 So that I know more about this person as a whole,  
 I would to learn  about thier interests.
 ```
+
+
 
 ### 4. Education 
 ```
@@ -86,14 +104,17 @@ So that I can know more about this person's qualification and skills ,
 I would to know about thier education history.
 ```
 
-#### 5. Interests 
+### 5. Experience 
 ```
 As a  potential employer,
-So that I know more about this person as a whole,  
-I would to learn  about thier interests.
+So that I can know more about this person's qualification and skills ,  
+I would to know about thier career history.
 ```
 
-### 5. UI 
+
+
+
+### 6. UI 
 ```
 As a potential employer, 
 So that I am not bored by looking at another portfolio website,
@@ -103,11 +124,6 @@ I would like the website to reflect something unique about this person and be in
 
 
 [ ]
-
-  ### 3. Links  
-- link to CV 
-- link to linked in 
-- link to github 
 
 
 
@@ -120,9 +136,9 @@ I would like the website to reflect something unique about this person and be in
 - link to github 
 
 ## Sprint 2 
-- About section
+- Always available section 
 - Project section until 2.4  
-- link section  
+- 
 
 ## Sprint 3 
 - Project section - 2.5 + 2.6 
