@@ -11,3 +11,8 @@ it("renders first interest", () => {
   const wrapper = shallow(<InterestsContainer />);
   expect(wrapper.text()).toContain("Art");
 });
+
+it("renders second interest", () => {
+  const wrapper = shallow(<InterestsContainer />);
+  expect(wrapper.text()).toContain("Design");
+});

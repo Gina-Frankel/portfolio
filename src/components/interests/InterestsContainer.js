@@ -1,5 +1,10 @@
 import React from "react";
 
 export function InterestsContainer() {
-  return <div>Art</div>;
+  return (
+    <div>
+      <p>Art</p>
+      <p>Design</p>
+    </div>
+  );
 }
