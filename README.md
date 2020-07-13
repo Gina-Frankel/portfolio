@@ -6,62 +6,166 @@ https://gina-frankel.netlify.app/
 
 ##  User Stories 
 
-### 1.About section
+### 1.General - Always available information 
 ```
-As a a potential employer, 
-I would like there to be an about section
-So I can now about this person's values
+As a potential employer, 
+I would like there always to be short summary of person, which includes their values and what is their occupation
+So I know exactly what they are looking  for and what type of person they are 
 ```
 
+```
+As a a potential employer, 
+I would like easy + constant access to links to github,
+so that I can easily see thier coding skills 
+```
+
+```
+As a a potential employer, 
+I would like easy + constant access to links to CV,
+so that I can easily read their CV
+```
+
+```
+As a a potential employer, 
+I would like to always have access to a LinkedIn link,
+so that I can easily contact this person 
+```
 
 
 ### 2.Projects 
 
+2.1
 ```
 As a potential employer  
-I would like to be able the name of all the  projects w  
-So .... 
+I would like to be able to see the name of all the  projects   
+So I know what projects have been created  
+```
+[x]
+
 ```
 
+2.2
+As a potential employer,  
+So that I know what technologies the person has experience with,
+I would like to see a list of  the technologies used.
 ```
+[ ]
 
-
-  > As a potential employer,  
-  > So that I know what technologies the person has experience with,
-  > I would like to see a list of  the technologies used.
-
-
-
+2.3
+```
 As a potential employer, 
 So that  I can know more information about what the project does and why it was made, 
 I would like to see a summary of each project 
+```
+[ ]
 
 
-  > As a  potential employer,,  
-  > So that I can see the project in action,  
-  > I would like a link to where it is deployed.
+2.4
+```
+As a potential employer,
+So that I can inspect the project's source code,  
+I would like a link to it's GitHub repo.
+  ```
+[x]
+
+----- 
+**Sprint 3**
+2.5
+```
+As a potential employer,,  
+So I can quickly know what the project looks like ,  
+I would like to see a screenshot.
+  ```
+[ ]
+
+2.6
+
+```
+As a  potential employer, 
+So that I can see the project in action,  
+I would like a link to where it is deployed.
+```
+[ ]
+
+
+#### 3. Interests 
+```
+As a  potential employer,
+So that I know more about this person as a whole,  
+I would like to be able  to click a link which  will show me thier interests.
+```
+
+```
+As a  potential employer,,  
+So that I know more about this person as a whole,  
+I would like to be able to see  a list of thier interests 
+```
+AC 
+```
+Art
+Design
+```
+
+
+```
+As a  potential employer,
+So that I know more about this person as a whole,  
+I would like to be able to see  details relating to thier interests 
+```
+AC 
+
+```
+Art
+- Painting 
+- Sketching
+```
+
+
+--- CV related information --- 
+### 4. Education 
+```
+As a  potential employer,
+So that I can know more about this person's qualification and skills ,  
+I would like a summary of  thier education history.
+```
+
+### 5. Experience 
+```
+As a  potential employer,
+So that I can know more about this person's qualification and skills ,  
+I would like a list  of thier career history, which includes university, grade + date
+```
+
+### 5. Skills 
+```
+As a  potential employer,
+So that I can know more about this person's skills ,  
+I would like to see a list of thier skills.
+```
+
+### 6. Contact
+
+```
+As a a potential employer, 
+I would like  to be able to directly contact this person through sending a form,
+so that I can easily contact this person 
+
+```
 
 
 
-  > As a potential employer,,  
-  > So that I can inspect the project's source code,  
-  > I would like a link to it's GitHub repo.
+## UI 
+- Playful 
+- Interactive 
+- Reflects my personality 
 
 
-  ### 3. Links  
-- link to CV 
-- link to linked in 
-- link to github 
+
+[ ]
 
 
 
 ### 
-
-### Additional 
-
-  > As a potential employer,  
-  > So that I can see how the project looks at a glance,  
-  > I would like to see some screenshots.
 
 
 
@@ -69,12 +173,13 @@ I would like to see a summary of each project
 ## MVP 
 - link to github 
 
-## Iteration  1
-- About section
-- Project section
-- link section  
+## Sprint 2 
+- Always available section 
+- Project section until 2.4  
+- 
 
-
+## Sprint 3 
+- Project section - 2.5 + 2.6 
 
 
 
