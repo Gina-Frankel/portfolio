@@ -4,8 +4,81 @@
 Deployed at: 
 https://gina-frankel.netlify.app/
 
+##  User Stories 
+
+### 1.About section
+```
+As a a potential employer, 
+I would like there to be an about section
+So I can now about this person's values
+```
 
 
+
+### 2.Projects 
+
+```
+As a potential employer  
+I would like to be able the name of all the  projects w  
+So .... 
+```
+
+```
+
+
+  > As a potential employer,  
+  > So that I know what technologies the person has experience with,
+  > I would like to see a list of  the technologies used.
+
+
+
+As a potential employer, 
+So that  I can know more information about what the project does and why it was made, 
+I would like to see a summary of each project 
+
+
+  > As a  potential employer,,  
+  > So that I can see the project in action,  
+  > I would like a link to where it is deployed.
+
+
+
+  > As a potential employer,,  
+  > So that I can inspect the project's source code,  
+  > I would like a link to it's GitHub repo.
+
+
+  ### 3. Links  
+- link to CV 
+- link to linked in 
+- link to github 
+
+
+
+### 
+
+### Additional 
+
+  > As a potential employer,  
+  > So that I can see how the project looks at a glance,  
+  > I would like to see some screenshots.
+
+
+
+
+## MVP 
+- link to github 
+
+## Iteration  1
+- About section
+- Project section
+- link section  
+
+
+
+
+
+----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
