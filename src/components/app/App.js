@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import Projects from "../projects/ProjectCardContainer";
+import { ProjectCardContainer } from "../index";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export function App() {
@@ -25,7 +25,7 @@ export function App() {
                 <Link to="/Projects">Projects</Link>
               </li>
               <Route path="/Projects">
-                <Projects />
+                <ProjectCardContainer />
               </Route>
             </div>
           </Router>
