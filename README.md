@@ -92,13 +92,13 @@ I would like a link to where it is deployed.
 ```
 As a  potential employer,
 So that I know more about this person as a whole,  
-I would to be able  to click a link which  will show me thier interests.
+I would like to be able  to click a link which  will show me thier interests.
 ```
 
 ```
 As a  potential employer,,  
 So that I know more about this person as a whole,  
-I would to be able to see  a list of thier interest 
+I would like to be able to see  a list of thier interests 
 ```
 AC 
 ```
@@ -110,7 +110,7 @@ Design
 ```
 As a  potential employer,
 So that I know more about this person as a whole,  
-I would to be able to see  details relating to thier interests 
+I would like to be able to see  details relating to thier interests 
 ```
 AC 
 
