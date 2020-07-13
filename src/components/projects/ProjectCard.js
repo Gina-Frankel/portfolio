@@ -1,10 +1,18 @@
-import React from 'react'
+import React from "react";
 
-function ProjectCard(){
-    return (
-        <h3>Mission Ctrl</h3>
-    )
-    
+function ProjectCard() {
+  return (
+    <div>
+      <h3>Mission Ctrl</h3>
+
+      <a
+        className="Project-Link"
+        href="https://github.com/tommyrharper/mission-ctrl"
+      >
+        GitHub Repo
+      </a>
+    </div>
+  );
 }
 
-export default ProjectCard
+export default ProjectCard;
