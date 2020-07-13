@@ -22,9 +22,7 @@ export function App() {
         <div>
           <Router>
             <div>
-              <li>
-                <Link to="/Projects">Projects</Link>
-              </li>
+              <Link to="/Projects">Projects</Link>
               <Route path="/Projects">
                 <ProjectCardContainer />
               </Route>
