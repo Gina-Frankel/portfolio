@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import ProjectCard from "./ProjectCard";
+import { ProjectCard } from "./ProjectCard";
 
 it("renders correctly", () => {
   const wrapper = shallow(<ProjectCard />);
