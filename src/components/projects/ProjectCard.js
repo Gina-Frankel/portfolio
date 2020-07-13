@@ -11,6 +11,7 @@ function ProjectCard() {
       <a className="Project-Link" href={projectItem.repoLink}>
         GitHub Repo
       </a>
+      <p>{projectItem.summary}</p>
       <p>{projectItem.technologies}</p>
       <br></br>
     </li>

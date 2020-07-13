@@ -17,6 +17,13 @@ it("renders the technologies of the project", () => {
   expect(wrapper.text()).toContain("Ruby");
 });
 
+it("renders a summary of the project", () => {
+  const wrapper = shallow(<ProjectCard />);
+  expect(wrapper.text()).toContain(
+    "A Command Line Interface program imitating a bank account"
+  );
+});
+
 it("renders a Link to the repoLink", () => {
   const wrapper = shallow(<ProjectCard />);
   const link = (
