@@ -11,6 +11,7 @@ function ProjectCard() {
       <a className="Project-Link" href={projectItem.repoLink}>
         GitHub Repo
       </a>
+      <p>{projectItem.technologies}</p>
     </li>
   ));
   //console.dir(projects);

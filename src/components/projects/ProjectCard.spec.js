@@ -12,6 +12,11 @@ it("renders the name of the project", () => {
   expect(wrapper.text()).toContain("Mission Ctrl");
 });
 
+it("renders the technologies of the project", () => {
+  const wrapper = shallow(<ProjectCard />);
+  expect(wrapper.text()).toContain("Ruby");
+});
+
 it("renders a Link to the repoLink", () => {
   const wrapper = shallow(<ProjectCard />);
   const link = (
