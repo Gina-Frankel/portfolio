@@ -6,7 +6,6 @@ function Projects() {
     <div>
       Projects
       <ProjectCard />
-      <h3>Mission Ctrl</h3>
     </div>
   );
 }

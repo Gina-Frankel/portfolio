@@ -27,11 +27,6 @@ it("renders Projects", () => {
 //     expect(wrapper.text()).toContain(link)
 //     })
 
-it("renders the name of the project", () => {
-  const wrapper = shallow(<Projects />);
-  expect(wrapper.text()).toContain("Mission Ctrl");
-});
-
 it("renders a ProjectCard", () => {
   const wrapper = shallow(<Projects />);
   const projectCard = <ProjectCard />;
