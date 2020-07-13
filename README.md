@@ -51,6 +51,8 @@ I would like a link to it's GitHub repo.
   ```
 [x]
 
+----- 
+**Sprint 3**
 2.5
 ```
 As a potential employer,,  
@@ -60,11 +62,46 @@ I would like to see a screenshot.
 [ ]
 
 2.6
+
 ```
 As a  potential employer,,  
 So that I can see the project in action,  
 I would like a link to where it is deployed.
 ```
+[ ]
+
+
+
+#### 3. Interests 
+```
+As a  potential employer,,  
+So that I know more about this person as a whole,  
+I would to learn  about thier interests.
+```
+
+### 4. Education 
+```
+As a  potential employer,
+So that I can know more about this person's qualification and skills ,  
+I would to know about thier education history.
+```
+
+#### 5. Interests 
+```
+As a  potential employer,
+So that I know more about this person as a whole,  
+I would to learn  about thier interests.
+```
+
+### 5. UI 
+```
+As a potential employer, 
+So that I am not bored by looking at another portfolio website,
+I would like the website to reflect something unique about this person and be interactive 
+```
+
+
+
 [ ]
 
   ### 3. Links  
@@ -76,24 +113,19 @@ I would like a link to where it is deployed.
 
 ### 
 
-### Additional 
-
-  > As a potential employer,  
-  > So that I can see how the project looks at a glance,  
-  > I would like to see some screenshots.
-
 
 
 
 ## MVP 
 - link to github 
 
-## Iteration  1
+## Sprint 2 
 - About section
-- Project section
+- Project section until 2.4  
 - link section  
 
-
+## Sprint 3 
+- Project section - 2.5 + 2.6 
 
 
 
