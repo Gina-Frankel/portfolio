@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import { ProjectCardContainer } from "../index";
+import { ProjectCardContainer, InterestContainer } from "../index";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { InterestsContainer } from "../interests/InterestsContainer";
 
 export function App() {
   return (
@@ -30,6 +31,15 @@ export function App() {
             </div>
           </Router>
         </div>
+        <Router>
+          <div>
+            <Link to="/Interests"> Interests</Link>
+
+            <Route path="/Interests">
+              <InterestsContainer />
+            </Route>
+          </div>
+        </Router>
       </body>
     </div>
   );
