@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import { ProjectCardContainer, InterestContainer } from "../index";
+import { ProjectCardContainer, InterestsContainer } from "../index";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { InterestsContainer } from "../interests/InterestsContainer";
 
 export function App() {
   return (
