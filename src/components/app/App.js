@@ -10,15 +10,6 @@ export function App() {
     <div className="App">
       <header className="App-header"></header>
       <body>
-        <a
-          className="App-link"
-          href="https://github.com/Gina-Frankel/CV"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github CV
-        </a>
-
         <div>
           <Router>
             <p>
