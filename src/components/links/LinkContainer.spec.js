@@ -23,3 +23,10 @@ it("renders a Link to LinkedIn", () => {
   const link = <a href="https://www.linkedin.com/in/gina-frankel">LinkedIn</a>;
   expect(wrapper.containsMatchingElement(link)).toEqual(true);
 });
+
+it("renders a Link to Github CV", () => {
+  const wrapper = shallow(<LinkContainer />);
+  const link = <a href="https://github.com/Gina-Frankel/CV">Github CV</a>;
+
+  expect(wrapper.containsMatchingElement(link)).toEqual(true);
+});
