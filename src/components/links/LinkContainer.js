@@ -1,3 +1,5 @@
 import React from "react";
 
-export function LinkContainer() {}
+export function LinkContainer() {
+  return <p>Github</p>;
+}
