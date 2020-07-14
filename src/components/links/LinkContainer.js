@@ -1,5 +1,9 @@
 import React from "react";
 
 export function LinkContainer() {
-  return <p>Github</p>;
+  return (
+    <div className="link">
+      <a href="https://github.com/Gina-Frankel">GitHub</a>
+    </div>
+  );
 }
