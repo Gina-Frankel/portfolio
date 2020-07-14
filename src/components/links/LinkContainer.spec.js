@@ -17,3 +17,9 @@ it("renders a Link to gitHub repo", () => {
   const link = <a href="https://github.com/Gina-Frankel">GitHub</a>;
   expect(wrapper.containsMatchingElement(link)).toEqual(true);
 });
+
+it("renders a Link to LinkedIn", () => {
+  const wrapper = shallow(<LinkContainer />);
+  const link = <a href="https://www.linkedin.com/in/gina-frankel">LinkedIn</a>;
+  expect(wrapper.containsMatchingElement(link)).toEqual(true);
+});
