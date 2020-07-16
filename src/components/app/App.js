@@ -11,11 +11,10 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <LinkContainer />
-      </header>
+      <header className="App-header"></header>
       <body>
-        <div>
+        <div className="container">
+          <LinkContainer />
           <Router>
             <p>
               <Link to="/Projects">Projects</Link>
