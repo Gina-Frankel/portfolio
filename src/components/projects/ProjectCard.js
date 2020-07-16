@@ -7,7 +7,7 @@ export function ProjectCard() {
     //console.dir(projectItem.name)
 
     <li key={index}>
-      <p> {projectItem.name}</p>
+      <h3> {projectItem.name}</h3>
       <a className="Project-Link" href={projectItem.repoLink}>
         GitHub Repo
       </a>
