@@ -19,15 +19,10 @@ export function App() {
             <p>
               <Link to="/Projects">Projects</Link>
             </p>
-            <p>
-              <Link to="/Interests"> Interests</Link>
-            </p>
+            <p></p>
             <switch>
               <Route path="/Projects">
                 <ProjectCardContainer />
-              </Route>
-              <Route path="/Interests">
-                <InterestsContainer />
               </Route>
             </switch>
           </Router>
