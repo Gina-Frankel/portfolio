@@ -18,7 +18,7 @@ export function App() {
           <Router>
             <p>
               <Link to="/Projects">
-                <h2>Projects</h2>
+                <p>Projects</p>
               </Link>
             </p>
             <p></p>
