@@ -1,33 +1,36 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import { ProjectCardContainer } from "../index";
+import {
+  ProjectCardContainer,
+  InterestsContainer,
+  LinkContainer,
+} from "../index";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <header className="App-header">
+        <LinkContainer />
+      </header>
       <body>
-        <a
-          className="App-link"
-          href="https://github.com/Gina-Frankel/CV"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github CV
-        </a>
-
         <div>
           <Router>
-            <div>
-              <li>
-                <Link to="/Projects">Projects</Link>
-              </li>
+            <p>
+              <Link to="/Projects">Projects</Link>
+            </p>
+            <p>
+              <Link to="/Interests"> Interests</Link>
+            </p>
+            <switch>
               <Route path="/Projects">
                 <ProjectCardContainer />
               </Route>
-            </div>
+              <Route path="/Interests">
+                <InterestsContainer />
+              </Route>
+            </switch>
           </Router>
         </div>
       </body>
