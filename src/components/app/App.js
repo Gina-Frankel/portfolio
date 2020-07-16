@@ -17,7 +17,9 @@ export function App() {
           <LinkContainer />
           <Router>
             <p>
-              <Link to="/Projects">Projects</Link>
+              <Link to="/Projects">
+                <h2>Projects</h2>
+              </Link>
             </p>
             <p></p>
             <switch>
