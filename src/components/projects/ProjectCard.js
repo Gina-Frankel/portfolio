@@ -12,7 +12,7 @@ export function ProjectCard() {
         GitHub Repo
       </a>
       <p>{projectItem.summary}</p>
-      <p>{projectItem.technologies}</p>
+      <p className="font-weight-bold">{projectItem.technologies}</p>
       <br></br>
     </li>
   ));
