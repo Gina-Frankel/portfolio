@@ -3,8 +3,7 @@ const projectList = [
     name: "Mission Ctrl",
     repoLink: "https://github.com/tommyrharper/mission-ctrl",
     technologies: "MongoDB, Express, React, Node, SCSS",
-    summary:
-      "A game to teach VSCode shortcuts, the game design is based on arcarde syle",
+    summary: "An arcade style game to teach VSCode shortcuts",
   },
   {
     name: "Bank Tech Test",

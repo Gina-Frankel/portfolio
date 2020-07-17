@@ -4,7 +4,7 @@ import { ProjectCard } from "../index";
 export function ProjectCardContainer() {
   return (
     <div>
-      Projects
+      <h2>Projects</h2>
       <ProjectCard />
     </div>
   );

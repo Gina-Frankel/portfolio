@@ -1,34 +1,28 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import {
-  ProjectCardContainer,
-  InterestsContainer,
-  LinkContainer,
-} from "../index";
+import { ProjectCardContainer, LinkContainer } from "../index";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <LinkContainer />
-      </header>
+      <header className="App-header"></header>
       <body>
-        <div>
+        <div className="container">
+          <LinkContainer />
+        </div>
+        <div className="container">
           <Router>
             <p>
-              <Link to="/Projects">Projects</Link>
+              <Link to="/Projects">
+                <p>Projects</p>
+              </Link>
             </p>
-            <p>
-              <Link to="/Interests"> Interests</Link>
-            </p>
+            <p></p>
             <switch>
               <Route path="/Projects">
                 <ProjectCardContainer />
-              </Route>
-              <Route path="/Interests">
-                <InterestsContainer />
               </Route>
             </switch>
           </Router>
