@@ -1,11 +1,7 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import {
-  ProjectCardContainer,
-  InterestsContainer,
-  LinkContainer,
-} from "../index";
+import { ProjectCardContainer, LinkContainer } from "../index";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 export function App() {
@@ -15,6 +11,8 @@ export function App() {
       <body>
         <div className="container">
           <LinkContainer />
+        </div>
+        <div className="container">
           <Router>
             <p>
               <Link to="/Projects">
