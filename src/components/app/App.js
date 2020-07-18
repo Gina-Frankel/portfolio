@@ -8,10 +8,10 @@ export function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
+
       <body>
-        <div className="container">
-          <LinkContainer />
-        </div>
+        <LinkContainer />
+
         <Router>
           <Link to="/Projects">
             <p>Projects</p>
