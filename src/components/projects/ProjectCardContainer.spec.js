@@ -10,12 +10,6 @@ it("renders correctly", () => {
   expect(wrapper).toHaveLength(1);
 });
 
-it("renders Projects", () => {
-  const wrapper = shallow(<ProjectCardContainer />);
-
-  expect(wrapper.text()).toContain("Projects");
-});
-
 it("renders a ProjectCard", () => {
   const wrapper = shallow(<ProjectCardContainer />);
   const projectCard = <ProjectCard />;
