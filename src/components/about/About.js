@@ -16,8 +16,9 @@ export function About() {
           I am driven by a need to solve problems and to express creativity.{" "}
         </p>
       </div>
-
-      <LinkContainer />
+      <div className="pt-5">
+        <LinkContainer />
+      </div>
     </div>
   );
 }
