@@ -12,19 +12,18 @@ export function App() {
         <div className="container">
           <LinkContainer />
         </div>
-        <div className="container">
-          <Router>
-            <Link to="/Projects">
-              <p>Projects</p>
-            </Link>
 
-            <Switch>
-              <Route path="/Projects">
-                <ProjectCardContainer />
-              </Route>
-            </Switch>
-          </Router>
-        </div>
+        <Router>
+          <Link to="/Projects">
+            <p>Projects</p>
+          </Link>
+
+          <Switch>
+            <Route path="/Projects">
+              <ProjectCardContainer />
+            </Route>
+          </Switch>
+        </Router>
       </body>
     </div>
   );
