@@ -12,13 +12,11 @@ export function App() {
         <div className="container">
           <LinkContainer />
         </div>
-        <h1>Gina Frankel</h1>
-
         <Router>
           <Link to="/Projects">
             <p>Projects</p>
           </Link>
-          <Link to="/About">
+          <Link to="/">
             <p>About</p>
           </Link>
 
@@ -26,7 +24,7 @@ export function App() {
             <Route path="/Projects">
               <ProjectCardContainer />
             </Route>
-            <Route path="/About">
+            <Route path="/">
               <About />
             </Route>
           </Switch>
