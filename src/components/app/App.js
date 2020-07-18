@@ -12,6 +12,7 @@ export function App() {
         <div className="container">
           <LinkContainer />
         </div>
+        <h1>Gina Frankel</h1>
 
         <Router>
           <Link to="/Projects">
