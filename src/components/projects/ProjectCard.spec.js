@@ -1,33 +1,19 @@
 import React from "react";
 import { shallow } from "enzyme";
 import { ProjectCard } from "./ProjectCard";
+import { ProjectCardItem } from "../index";
+import ProjectList from "../../projects";
 
 it("renders correctly", () => {
   const wrapper = shallow(<ProjectCard />);
   expect(wrapper).toHaveLength(1);
 });
 
-it("renders the name of the project", () => {
+it("renders a ProjectCardItem component", () => {
   const wrapper = shallow(<ProjectCard />);
-  expect(wrapper.text()).toContain("Mission Ctrl");
-});
 
-it("renders the technologies of the project", () => {
-  const wrapper = shallow(<ProjectCard />);
-  expect(wrapper.text()).toContain("Ruby");
-});
+  const projectItem = ProjectList[0];
 
-it("renders a summary of the project", () => {
-  const wrapper = shallow(<ProjectCard />);
-  expect(wrapper.text()).toContain(
-    "A Command Line Interface program imitating a bank account"
-  );
-});
-
-it("renders a Link to the repoLink", () => {
-  const wrapper = shallow(<ProjectCard />);
-  const link = (
-    <a href="https://github.com/tommyrharper/mission-ctrl">GitHub Repo</a>
-  );
-  expect(wrapper.containsMatchingElement(link)).toEqual(true);
+  const mockProjectCardItem = <ProjectCardItem key={0} value={projectItem} />;
+  expect(wrapper.containsMatchingElement(mockProjectCardItem)).toEqual(true);
 });
