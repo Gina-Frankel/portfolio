@@ -7,6 +7,7 @@ export function ProjectCardItem(props) {
       <p>{props.value.technologies}</p>
       <p>{props.value.summary}</p>
       <a href={props.value.repoLink}>GitHub Repo</a>
+      <img src={props.value.image} alt="project image"></img>
     </div>
   );
 }
