@@ -10,7 +10,6 @@ export function App() {
       <header className="App-header"></header>
 
       <body>
-        <LinkContainer />
         <Router>
           <div className="container">
             <div className="row">
