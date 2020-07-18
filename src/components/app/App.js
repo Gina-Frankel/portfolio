@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
 import { ProjectCardContainer, LinkContainer } from "../index";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export function App() {
   return (
@@ -18,11 +18,11 @@ export function App() {
               <p>Projects</p>
             </Link>
 
-            <switch>
+            <Switch>
               <Route path="/Projects">
                 <ProjectCardContainer />
               </Route>
-            </switch>
+            </Switch>
           </Router>
         </div>
       </body>
