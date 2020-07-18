@@ -10,7 +10,7 @@ export function ProjectCardItem(props) {
       <img
         className="img-fluid"
         src={props.value.image}
-        alt="project image"
+        alt="project screenshot"
       ></img>
     </div>
   );
