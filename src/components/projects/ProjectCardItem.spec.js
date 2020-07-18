@@ -4,7 +4,8 @@ import { ProjectCardItem } from "../index";
 
 const props = {
   name: "Test Project",
-  technologies: "Ruby",
+  technologies: "Test Technology",
+  summary: "Test Summary",
 };
 
 it("renders correctly", () => {
@@ -19,7 +20,12 @@ it("renders the name of the project", () => {
 
 it("renders the technologies of the project", () => {
   const wrapper = shallow(<ProjectCardItem value={props} />);
-  expect(wrapper.text()).toContain("Ruby");
+  expect(wrapper.text()).toContain("Test Technology");
+});
+
+it("renders a summary of the project", () => {
+  const wrapper = shallow(<ProjectCardItem value={props} />);
+  expect(wrapper.text()).toContain("Test Summary");
 });
 
 // it("renders a summary of the project", () => {

@@ -5,6 +5,7 @@ export function ProjectCardItem(props) {
     <div>
       <h3>{props.value.name}</h3>
       <p>{props.value.technologies}</p>
+      <p>{props.value.summary}</p>
     </div>
   );
 }
