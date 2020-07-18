@@ -1,4 +1,5 @@
 import React from "react";
+import { LinkContainer } from "../index";
 
 export function About() {
   return (
@@ -15,6 +16,8 @@ export function About() {
           I am driven by a need to solve problems and to express creativity.{" "}
         </p>
       </div>
+
+      <LinkContainer />
     </div>
   );
 }
