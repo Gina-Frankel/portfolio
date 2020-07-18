@@ -11,13 +11,3 @@ export function ProjectCardItem(props) {
     </div>
   );
 }
-// <div key={index}>
-//   <h3> {projectItem.name}</h3>
-//   <a className="Project-Link" href={projectItem.repoLink}>
-//     GitHub Repo
-//   </a>
-//   <p>{projectItem.summary}</p>
-//   <p className="font-weight-bold">{projectItem.technologies}</p>
-//   <br></br>
-// </div>
-//console.dir(projects);
