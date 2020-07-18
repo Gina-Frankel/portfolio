@@ -1,4 +1,6 @@
 import MissionCtrlImage from "./static/projectImages/mission-ctrl.png";
+import StatueProjectImage from "./static/projectImages/statue-project.png";
+import BankTest from "./static/projectImages/bank-test.png";
 
 const projectList = [
   {
@@ -13,7 +15,7 @@ const projectList = [
     repoLink: "https://github.com/Gina-Frankel/bank_tech_tests",
     technologies: "Ruby",
     summary: "A Command Line Interface program imitating a bank account",
-    image: "",
+    image: BankTest,
   },
   {
     name: "Statues",
@@ -22,7 +24,7 @@ const projectList = [
       "React, React Router, Javascript, Python, Spacey, Beautiful Soup",
     summary:
       "Currently developing website to provide historical context about public art so that people can have a deeper understanding of British involvement in the Slave Trade",
-    image: "",
+    image: StatueProjectImage,
   },
 ];
 
