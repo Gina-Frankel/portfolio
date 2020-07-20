@@ -6,19 +6,26 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <header className="App-header"></header>
+
       <body>
-        <div className="container">
-          <LinkContainer />
-        </div>
         <Router>
-          <Link to="/Projects">
-            <p>Projects</p>
-          </Link>
-          <Link to="/">
-            <p>About</p>
-          </Link>
+          <div id="navBar">
+            <div className="row">
+              <div className="col-1  offset-md-9">
+                <Link to="/">
+                  <p className="links">About</p>
+                </Link>
+              </div>
+
+              <div className="col">
+                <Link to="/Projects">
+                  <p className="links">Projects</p>
+                </Link>
+              </div>
+            </div>
+          </div>
 
           <Switch>
             <Route path="/Projects">
@@ -29,6 +36,12 @@ export function App() {
             </Route>
           </Switch>
         </Router>
+
+        <footer id="stickyFooter" className="bg-dark">
+          <div className="container text-center">
+            <LinkContainer />
+          </div>
+        </footer>
       </body>
     </div>
   );
