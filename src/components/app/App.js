@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <header className="App-header"></header>
 
       <body>
@@ -36,6 +36,12 @@ export function App() {
             </Route>
           </Switch>
         </Router>
+
+        <footer id="stickyFooter" className="bg-dark">
+          <div className="container text-center">
+            <LinkContainer />
+          </div>
+        </footer>
       </body>
     </div>
   );
