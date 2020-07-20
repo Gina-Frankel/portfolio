@@ -15,13 +15,13 @@ export function App() {
             <div className="row">
               <div className="col-1  offset-md-9">
                 <Link to="/">
-                  <p>About</p>
+                  <p className="links">About</p>
                 </Link>
               </div>
 
               <div className="col">
                 <Link to="/Projects">
-                  <p>Projects</p>
+                  <p className="links">Projects</p>
                 </Link>
               </div>
             </div>
