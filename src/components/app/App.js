@@ -11,7 +11,7 @@ export function App() {
 
       <body>
         <Router>
-          <div className="container">
+          <div id="navBar">
             <div className="row">
               <div className="col-1  offset-md-9">
                 <Link to="/">
