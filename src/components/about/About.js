@@ -1,5 +1,4 @@
 import React from "react";
-import { LinkContainer } from "../index";
 import "./About.css";
 
 export function About() {
@@ -16,9 +15,6 @@ export function About() {
         <p id="lead">
           I am driven by a need to solve problems and to express creativity.{" "}
         </p>
-      </div>
-      <div className="link">
-        <LinkContainer />
       </div>
     </div>
   );
