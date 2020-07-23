@@ -5,6 +5,7 @@ import {
   ProjectCardContainer,
   LinkContainer,
   About,
+  AboutLink,
   ProjectLink,
 } from "../index";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -16,14 +17,9 @@ export function App() {
 
       <body>
         <Router>
-          {/* <About-Link/> */}
           <div id="navBar">
             <div className="row">
-              <div className="col-1  offset-md-9">
-                <Link to="/">
-                  <p className="links">About</p>
-                </Link>
-              </div>
+              <AboutLink />
               <ProjectLink />
             </div>
           </div>
