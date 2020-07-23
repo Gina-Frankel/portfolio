@@ -4,7 +4,7 @@ export { ProjectCardContainer } from "./projects/ProjectCardContainer";
 export { ProjectCard } from "./projects/ProjectCard";
 export { ProjectCardItem } from "./projects/ProjectCardItem";
 export { ProjectLink } from "./projects/ProjectLink";
-export { Footer } from "./links/Footer";
+export { Footer } from "./footer/Footer";
 export { AboutLink } from "./about/AboutLink";
 export { About } from "./about/About";
 export { Routes } from "./routes/Routes";

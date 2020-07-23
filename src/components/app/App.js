@@ -9,7 +9,7 @@ export function App() {
 
       <body>
         <Routes />
-        <footer id="stickyFooter" className="bg-dark">
+        <footer id="stickyFooter" className="bg-dark ">
           <div className="container text-center">
             <Footer />
           </div>
