@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-import "../projects/ProjectCardContainer";
 import {
-  ProjectCardContainer,
-  LinkContainer,
   About,
   AboutLink,
+  LinkContainer,
+  ProjectCardContainer,
   ProjectLink,
 } from "../index";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
