@@ -7,3 +7,4 @@ export { ProjectLink } from "./projects/ProjectLink";
 export { LinkContainer } from "./links/LinkContainer";
 export { AboutLink } from "./about/AboutLink";
 export { About } from "./about/About";
+export { Routes } from "./routes/Routes";
