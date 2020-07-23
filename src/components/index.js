@@ -5,4 +5,5 @@ export { ProjectCard } from "./projects/ProjectCard";
 export { ProjectCardItem } from "./projects/ProjectCardItem";
 export { ProjectLink } from "./projects/ProjectLink";
 export { LinkContainer } from "./links/LinkContainer";
+export { AboutLink } from "./about/AboutLink";
 export { About } from "./about/About";
