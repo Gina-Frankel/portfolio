@@ -1,7 +1,7 @@
 import React from "react";
-import "./LinkContainer.css";
+import "./Footer.css";
 
-export function LinkContainer() {
+export function Footer() {
   return (
     <div className="row ">
       <div className="">
