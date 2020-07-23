@@ -1,7 +1,12 @@
 import React from "react";
 import "./App.css";
 import "../projects/ProjectCardContainer";
-import { ProjectCardContainer, LinkContainer, About } from "../index";
+import {
+  ProjectCardContainer,
+  LinkContainer,
+  About,
+  ProjectLink,
+} from "../index";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export function App() {
@@ -11,6 +16,7 @@ export function App() {
 
       <body>
         <Router>
+          {/* <About-Link/> */}
           <div id="navBar">
             <div className="row">
               <div className="col-1  offset-md-9">
@@ -18,12 +24,7 @@ export function App() {
                   <p className="links">About</p>
                 </Link>
               </div>
-
-              <div className="col">
-                <Link to="/Projects">
-                  <p className="links">Projects</p>
-                </Link>
-              </div>
+              <ProjectLink />
             </div>
           </div>
 
