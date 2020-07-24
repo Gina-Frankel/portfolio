@@ -8,3 +8,4 @@ export { Footer } from "./footer/Footer";
 export { AboutLink } from "./routes/AboutLink";
 export { About } from "./about/About";
 export { Routes } from "./routes/Routes";
+export { NavBar } from "./routes/NavBar";
