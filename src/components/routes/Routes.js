@@ -4,9 +4,7 @@ import { About, NavBar, ProjectCardContainer } from "../index";
 export function Routes() {
   return (
     <Router>
-      <div className="row" id="navBar">
-        <NavBar />
-      </div>
+      <NavBar />
 
       <Switch>
         <Route path="/Projects">
