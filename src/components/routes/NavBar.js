@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutLink, ProjectLink } from "../index";
+
 import { Link } from "react-router-dom";
 
 export function NavBar() {
