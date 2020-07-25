@@ -10,7 +10,6 @@ export function App() {
       <body>
         <Routes />
       </body>
-      <Footer />
     </div>
   );
 }
