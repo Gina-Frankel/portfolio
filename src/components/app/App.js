@@ -9,12 +9,8 @@ export function App() {
 
       <body>
         <Routes />
-        <footer id="stickyFooter" className="bg-dark ">
-          <div className="container text-center">
-            <Footer />
-          </div>
-        </footer>
       </body>
+      <Footer />
     </div>
   );
 }
