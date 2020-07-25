@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.css";
+// import "./Footer.css";
 
-export function FooterLinks(props) {
+export function ContactLinkItem(props) {
   return (
     <a
       className="contactLink  px-2"
