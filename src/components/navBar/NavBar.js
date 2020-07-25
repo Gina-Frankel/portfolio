@@ -1,11 +1,12 @@
 import React from "react";
-import { NavLinks } from "../index";
+import { ContactLinkList, NavPageLinks } from "../index";
 
 export function NavBar() {
   return (
     <nav className="navbar  sticky-top navbar-expand bg-light  ">
       <div className="container">
-        <NavLinks />
+        <NavPageLinks />
+        <ContactLinkList />
       </div>
     </nav>
   );
