@@ -9,5 +9,5 @@ export { ContactLinkList } from "./navBar/ContactLinkList";
 export { About } from "./about/About";
 export { Routes } from "./routes/Routes";
 export { NavBar } from "./navBar/NavBar";
-export { NavPageLinks } from "./navBar/NavLinks";
+export { NavPageLinks } from "./navBar/NavPageLinks";
 export { ContactLinkItem } from "./navBar/ContactLinkItem";
