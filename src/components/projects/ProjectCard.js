@@ -7,9 +7,5 @@ export function ProjectCard() {
     <ProjectCardItem key={index} value={projectItem} />
   ));
 
-  return (
-    <div className="container">
-      <div className="row">{projectItems}</div>;
-    </div>
-  );
+  return <div className="row">{projectItems}</div>;
 }
