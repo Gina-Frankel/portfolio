@@ -18,14 +18,14 @@ a:hover {
   color: rgb(174, 255, 174);
 }
 
-
+h1 {
+  color: rgb(176, 131, 248);
+}
 
 p {
   font-family: "Raleway", sans-serif;
   font-size: 1.5em;
 }
-
-
 
 #navBar {
   top: 0;
