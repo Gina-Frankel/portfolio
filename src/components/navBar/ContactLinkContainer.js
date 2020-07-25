@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+// import "./Footer.css";
 import { FooterLinks } from "../index";
 import contactLinksList from "../../contactLinks";
 
