@@ -7,12 +7,12 @@ export function NavPageLinks() {
     <ul className=" navbar-nav mr-auto ">
       <li className="nav-item">
         <Link to="/" className="nav-link">
-          <p>About</p>
+          About
         </Link>
       </li>
       <li className="nav-item">
         <Link to="/Projects" className="nav-link">
-          <p>Projects</p>
+          Projects
         </Link>
       </li>
     </ul>
