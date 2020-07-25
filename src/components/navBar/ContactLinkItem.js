@@ -3,13 +3,16 @@ import React from "react";
 
 export function ContactLinkItem(props) {
   return (
-    <a
-      className="contactLink  px-2"
-      href={props.value.link}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {props.value.name}
-    </a>
+    <li className="nav-item">
+      <a
+        className="nav-link"
+        // className="contactLink  px-2"
+        href={props.value.link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {props.value.name}
+      </a>
+    </li>
   );
 }

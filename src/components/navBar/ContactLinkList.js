@@ -9,9 +9,5 @@ export function ContactLinkList() {
     <ContactLinkItem key={index} value={contactLink} />
   ));
 
-  return (
-    <div className="container d-flex justify-content-end">
-      <div>{FooterLinkItems}</div>
-    </div>
-  );
+  return <ul className="  navbar-nav ">{FooterLinkItems}</ul>;
 }
