@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectCardItem.css";
 
 export function ProjectCardItem(props) {
+  console.log(props);
   return (
     <div className="col-sm-12 col-lg-4 py-5  ">
       <img
