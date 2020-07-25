@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { FooterLinks } from "../index";
+import { ContactLinkItem } from "../index";
 
 const props = {
   name: "Test contact",
@@ -8,6 +8,6 @@ const props = {
 };
 
 it("renders correctly", () => {
-  const wrapper = shallow(<FooterLinks value={props} />);
+  const wrapper = shallow(<ContactLinkItem value={props} />);
   expect(wrapper).toHaveLength(1);
 });
