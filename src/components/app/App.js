@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Footer, Routes } from "../index";
+import { Routes } from "../index";
 
 export function App() {
   return (
