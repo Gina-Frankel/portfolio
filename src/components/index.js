@@ -9,3 +9,4 @@ export { AboutLink } from "./routes/AboutLink";
 export { About } from "./about/About";
 export { Routes } from "./routes/Routes";
 export { NavBar } from "./routes/NavBar";
+export { FooterLinks } from "./footer/FooterLinks";
