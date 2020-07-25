@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export function NavBar() {
   return (
-    <div className="container ">
-      <nav className="navbar sticky navbar-expand  ">
-        <ul className=" navbar-nav ml-auto ">
+    <nav className="navbar  sticky-top navbar-expand bg-light  ">
+      <div className="container">
+        <ul className=" navbar-nav mr-auto ">
           <li className="nav-item">
             <Link to="/" className="nav-link">
               <p>About</p>
@@ -18,18 +18,7 @@ export function NavBar() {
             </Link>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
-
-// <div className="container">
-//
-//     <div className="p-2 bd-highlight">
-//       <AboutLink />
-//     </div>
-//     <div className="p-2 bd-highlight">
-//       <ProjectLink />
-//     </div>
-//   </div>
-// </div>
