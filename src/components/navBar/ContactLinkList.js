@@ -3,7 +3,7 @@ import React from "react";
 import { FooterLinks } from "../index";
 import contactLinksList from "../../contactLinks";
 
-export function Footer() {
+export function ContactLinkList() {
   const FooterLinkItems = contactLinksList.map((contactLink, index) => (
     <FooterLinks key={index} value={contactLink} />
   ));
