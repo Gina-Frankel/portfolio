@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-export function NavLinks() {
+export function NavPageLinks() {
   return (
     <ul className=" navbar-nav mr-auto ">
       <li className="nav-item">
