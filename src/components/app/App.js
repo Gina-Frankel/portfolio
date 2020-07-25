@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Footer, Routes } from "../index";
+import { Routes } from "../index";
 
 export function App() {
   return (
@@ -9,11 +9,6 @@ export function App() {
 
       <body>
         <Routes />
-        <footer id="stickyFooter" className="bg-dark ">
-          <div className="container text-center">
-            <Footer />
-          </div>
-        </footer>
       </body>
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectCardItem.css";
 
 export function ProjectCardItem(props) {
+  console.log(props);
   return (
     <div className="col-sm-12 col-lg-4 py-5  ">
       <img
@@ -12,8 +13,8 @@ export function ProjectCardItem(props) {
 
       <div className="card-background px-3 pb-5">
         <h3 className="pt-5 ">{props.value.name}</h3>
-        <p>{props.value.technologies}</p>
-        <p>{props.value.summary}</p>
+        <h5 className="py-2">{props.value.technologies}</h5>
+        <p className="py-4">{props.value.summary}</p>
         <a
           href={props.value.repoLink}
           target="_blank"
