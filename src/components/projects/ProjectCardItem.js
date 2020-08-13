@@ -2,7 +2,20 @@ import React from "react";
 import "./ProjectCardItem.css";
 
 export function ProjectCardItem(props) {
-  console.log(props);
+  let deployedLink;
+
+  if (props.value.deployedLink) {
+    deployedLink = (
+      <a
+        href={props.value.deployedLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p>Visit Site</p>
+      </a>
+    );
+  }
+
   return (
     <div className="col-sm-12 col-lg-4 py-5  ">
       <img
@@ -20,8 +33,9 @@ export function ProjectCardItem(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub Repo
+          <p> GitHub Repo </p>
         </a>
+        {deployedLink}
       </div>
     </div>
   );
