@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProjectCardItem.css";
+import { Link } from "react-router-dom";
 
 export function ProjectCardItem(props) {
   let deployedLink;
@@ -18,11 +19,13 @@ export function ProjectCardItem(props) {
 
   return (
     <div className="col-sm-12 col-lg-4 py-5  ">
-      <img
-        className="img-fluid"
-        src={props.value.image}
-        alt="project screenshot"
-      ></img>
+      <Link to="/test">
+        <img
+          className="img-fluid"
+          src={props.value.image}
+          alt="project screenshot"
+        ></img>
+      </Link>
 
       <div className="card-background px-3 pb-5">
         <h3 className="pt-5 ">{props.value.name}</h3>
