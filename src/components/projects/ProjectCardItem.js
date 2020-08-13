@@ -2,8 +2,6 @@ import React from "react";
 import "./ProjectCardItem.css";
 
 export function ProjectCardItem(props) {
-  console.log(props);
-
   let deployedLink;
 
   if (props.value.deployedLink) {
