@@ -7,8 +7,8 @@ export function ProjectCardContainer() {
       <div className="jumpotron">
         <h1 className="display-1  pt-5 ">Projects</h1>
         <hr class="my-4"></hr>
-        <ProjectCard />
       </div>
+      <ProjectCard />
     </div>
   );
 }
