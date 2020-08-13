@@ -3,6 +3,7 @@ export { App } from "./app/App.js";
 export { ProjectCardContainer } from "./projects/ProjectCardContainer";
 export { ProjectCard } from "./projects/ProjectCard";
 export { ProjectCardItem } from "./projects/ProjectCardItem";
+export { ProjectProcessContainer } from "./projectProcess/ProjectProcessContainer";
 // export { ProjectLink } from "./navBar/ProjectLink";
 export { ContactLinkList } from "./navBar/ContactLinkList";
 // export { AboutLink } from "./navBar/AboutLink";
