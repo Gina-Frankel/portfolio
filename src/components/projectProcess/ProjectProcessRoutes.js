@@ -9,10 +9,10 @@ export class ProjectProcessRoutes extends Component {
       const name = project.name;
 
       // const slug = `${name.replace(/\s/g, "-")}`;
-      const url = `${name}`;
+      const url = `/${name}`;
 
       return (
-        <Route exact path={"/Mission Ctrl"}>
+        <Route exact path={url}>
           <ProjectProcessContainer project={project} />
         </Route>
       );
