@@ -5,6 +5,7 @@ export { ProjectCard } from "./projects/ProjectCard";
 export { ProjectCardItem } from "./projects/ProjectCardItem";
 export { ProjectProcessContainer } from "./projectProcess/ProjectProcessContainer";
 export { ProjectProcessRoutes } from "./projectProcess/ProjectProcessRoutes";
+export { ProjectProcessLinks } from "./projectProcess/ProjectProcessLinks";
 export { ContactLinkList } from "./navBar/ContactLinkList";
 // export { AboutLink } from "./navBar/AboutLink";
 export { About } from "./about/About";
