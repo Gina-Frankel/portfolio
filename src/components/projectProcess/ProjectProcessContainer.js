@@ -4,11 +4,23 @@ import background from "../../static/linen.jpg";
 import "./ProjectProcessContainer.css";
 
 export function ProjectProcessContainer(props) {
+  let deployedLink;
+  if (props.project.deployedLink) {
+    deployedLink = (
+      <a
+        href={props.project.deployedLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p>Visit Site</p>
+      </a>
+    );
+  }
   return (
     <div className="container ">
       <div className="row pt-5">
         <div className="col-lg-12 "></div>
-        <p className="col-lg-5">
+        <div className="col-lg-5">
           <div className="jumpotron">
             <h1 className="display-4  "> {props.project.name}</h1>
           </div>
@@ -16,9 +28,16 @@ export function ProjectProcessContainer(props) {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in "<p></p>
-          <p>repo</p>
-          <p>See it live</p>
-        </p>
+          {/* LINKS  */}
+          <a
+            href={props.project.repoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p> GitHub Repo </p>
+          </a>
+          {deployedLink}
+        </div>
 
         <div className=" col-sm-12  col-lg-7 pb-5  ">
           <img
