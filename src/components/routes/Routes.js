@@ -5,6 +5,7 @@ import {
   NavBar,
   ProjectCardContainer,
   ProjectProcessContainer,
+  ProjectProcessRoutes,
 } from "../index";
 export function Routes() {
   return (
@@ -12,10 +13,10 @@ export function Routes() {
       <NavBar />
 
       <Switch>
-        <Route path="/Projects" component={ProjectCardContainer} />
-        <Route path="/test" component={ProjectProcessContainer} />
+        <Route exact path="/Projects" component={ProjectCardContainer} />
 
-        <Route path="/" component={About} />
+        <Route exact path="/" component={About} />
+        <ProjectProcessRoutes />
       </Switch>
     </Router>
   );
