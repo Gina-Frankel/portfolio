@@ -3,8 +3,10 @@ import "./ProjectCardItem.css";
 import { Link } from "react-router-dom";
 
 export function ProjectCardItem(props) {
-  let deployedLink;
+  const name = props.value.name;
+  const slug = `/${name}`;
 
+  let deployedLink;
   if (props.value.deployedLink) {
     deployedLink = (
       <a
@@ -19,7 +21,7 @@ export function ProjectCardItem(props) {
 
   return (
     <div className="col-sm-12 col-lg-4 py-5  ">
-      <Link to="/test">
+      <Link to={name}>
         <img
           className="img-fluid"
           src={props.value.image}
