@@ -5,18 +5,6 @@ import { ProjectProcessLinks } from "../index";
 import "./ProjectProcessContainer.css";
 
 export function ProjectProcessContainer(props) {
-  let deployedLink;
-  if (props.project.deployedLink) {
-    deployedLink = (
-      <a
-        href={props.project.deployedLink}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <p>Visit Site</p>
-      </a>
-    );
-  }
   return (
     <div className="container ">
       <div className="row pt-5">
@@ -31,7 +19,6 @@ export function ProjectProcessContainer(props) {
           aliquip ex ea commodo consequat. Duis aute irure dolor in "<p></p>
           {/* LINKS  */}
           <ProjectProcessLinks project={props.project} />
-          {deployedLink}
         </div>
 
         <div className=" col-sm-12  col-lg-7 pb-5  ">

@@ -1,6 +1,18 @@
 import React from "react";
 
 export function ProjectProcessLinks(props) {
+  let deployedLink;
+  if (props.project.deployedLink) {
+    deployedLink = (
+      <a
+        href={props.project.deployedLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p>Visit Site</p>
+      </a>
+    );
+  }
   return (
     <div>
       {" "}
@@ -11,6 +23,7 @@ export function ProjectProcessLinks(props) {
       >
         <p> GitHub Repo </p>
       </a>
+      {deployedLink}
     </div>
   );
 }
