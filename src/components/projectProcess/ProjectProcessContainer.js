@@ -1,6 +1,7 @@
 import React from "react";
 // import projectList from "../../projects";
 import background from "../../static/linen.jpg";
+import { ProjectProcessLinks } from "../index";
 import "./ProjectProcessContainer.css";
 
 export function ProjectProcessContainer(props) {
@@ -29,13 +30,7 @@ export function ProjectProcessContainer(props) {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. Duis aute irure dolor in "<p></p>
           {/* LINKS  */}
-          <a
-            href={props.project.repoLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p> GitHub Repo </p>
-          </a>
+          <ProjectProcessLinks project={props.project} />
           {deployedLink}
         </div>
 

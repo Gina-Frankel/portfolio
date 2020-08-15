@@ -1,5 +1,16 @@
 import React from "react";
 
-export function ProjectProcessContainer(props) {
-  return <div></div>;
+export function ProjectProcessLinks(props) {
+  return (
+    <div>
+      {" "}
+      <a
+        href={props.project.repoLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p> GitHub Repo </p>
+      </a>
+    </div>
+  );
 }
