@@ -1,10 +1,20 @@
 import React from "react";
-// import projectList from "../../projects";
-import background from "../../static/linen.jpg";
+
 import { ProjectProcessLinks } from "../index";
 import "./ProjectProcessContainer.css";
 
 export function ProjectProcessContainer(props) {
+  let processImage;
+  if (props.project.process.image) {
+    processImage = (
+      <img
+        className="img-fluid"
+        src={props.project.process.image}
+        alt="linen"
+      ></img>
+    );
+  }
+
   return (
     <div className="container ">
       <div className="row pt-5">
@@ -13,11 +23,7 @@ export function ProjectProcessContainer(props) {
           <div className="jumpotron">
             <h1 className="display-4  "> {props.project.name}</h1>
           </div>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in "<p></p>
-          {/* LINKS  */}
+          {props.project.process.introduction}
           <ProjectProcessLinks project={props.project} />
         </div>
 
@@ -25,23 +31,14 @@ export function ProjectProcessContainer(props) {
           <img
             className="img-fluid"
             src={props.project.image}
-            alt="linen"
+            alt="projectImage"
           ></img>
         </div>
 
         <div className="offset-lg-5 col-lg-7 ">
           <h3> Design process </h3>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-
-          <img className="img-fluid" src={background} alt="linen"></img>
+          <p>{props.project.process.explanation}</p>
+          {processImage}
         </div>
       </div>
     </div>
