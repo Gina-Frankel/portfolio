@@ -34,12 +34,10 @@ export function ProjectProcessContainer(props) {
             alt="projectImage"
           ></img>
         </div>
-
-        <div className="offset-lg-5 col-lg-7 ">
-          <h3> Design process </h3>
-          <p>{props.project.process.explanation}</p>
-          {processImage}
-        </div>
+      </div>
+      <div className="row ">
+        <p>{props.project.process.explanation}</p>
+        {processImage}
       </div>
     </div>
   );
