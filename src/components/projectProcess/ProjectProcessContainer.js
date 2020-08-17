@@ -26,9 +26,12 @@ export function ProjectProcessContainer(props) {
         <div className="col-lg-5">
           <div className="jumpotron">
             <h1 className="display-4  "> {props.project.name}</h1>
+            <h5>{props.project.technologies}</h5>
+            <ProjectProcessLinks project={props.project} />
+            <br></br>
           </div>
+
           <p>{props.project.process.introduction}</p>
-          <ProjectProcessLinks project={props.project} />
         </div>
 
         <div className=" col-sm-12  col-lg-7 pb-5  ">
