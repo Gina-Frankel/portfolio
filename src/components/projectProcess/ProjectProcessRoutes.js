@@ -17,7 +17,6 @@ export class ProjectProcessRoutes extends Component {
         </Route>
       );
     });
-    console.log(newRoute);
 
     return <Switch>{newRoute}</Switch>;
   }
