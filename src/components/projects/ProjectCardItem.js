@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export function ProjectCardItem(props) {
   const name = props.value.name;
-  const slug = `/${name}`;
 
   let deployedLink;
   if (props.value.deployedLink) {
