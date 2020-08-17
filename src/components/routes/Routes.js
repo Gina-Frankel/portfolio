@@ -4,7 +4,6 @@ import {
   About,
   NavBar,
   ProjectCardContainer,
-  ProjectProcessContainer,
   ProjectProcessRoutes,
 } from "../index";
 export function Routes() {
