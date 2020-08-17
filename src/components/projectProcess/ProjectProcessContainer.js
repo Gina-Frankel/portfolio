@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { ProjectProcessLinks } from "../index";
 import "./ProjectProcessContainer.css";
@@ -15,6 +15,10 @@ export function ProjectProcessContainer(props) {
     );
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container ">
       <div className="row pt-5">
@@ -23,7 +27,7 @@ export function ProjectProcessContainer(props) {
           <div className="jumpotron">
             <h1 className="display-4  "> {props.project.name}</h1>
           </div>
-          {props.project.process.introduction}
+          <p>{props.project.process.introduction}</p>
           <ProjectProcessLinks project={props.project} />
         </div>
 
