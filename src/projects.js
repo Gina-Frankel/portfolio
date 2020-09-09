@@ -4,6 +4,7 @@ import BankTest from "./static/projectImages/bank-test.jpg";
 import StatementOrganiserImage from "./static/projectImages/statement-organiser.jpg";
 import MySecretGardenImage from "./static/projectImages/garden-project.jpg";
 import MissionCtrlInspirationImage from "./static/projectImages/mission-ctrl-inspiration.jpg";
+import StoryCVImage from "./static/projectImages/story-cv.jpg";
 
 const projectList = [
   {
@@ -21,6 +22,21 @@ const projectList = [
       image: MissionCtrlInspirationImage,
     },
   },
+  {
+    name: "Story CV",
+    repoLink: "https://github.com/makersacademy/example-story-website",
+    technologies: "React, Gatsby, Typescript, Sass",
+    summary:
+      "Work In Progress - This project aims to provide a customisable template for developers to demonstrate their potential",
+    image: StoryCVImage,
+
+    process: {
+      introduction:
+        "I am working on a group project with Makers Academy to develop a new way for graduates to showcase their skills. As a result of the current COVID situation, there have been fewer jobs from Makers so the majority of graduates have to seek jobs externally. The problem is how to convey the value and potential of each graduate in a CV. During a design sprint we designed a template which combines storytelling principles, traditional CV and a software development CV. \n\n We are currently building this using Gatsby.",
+      explanation: "",
+    },
+  },
+
   {
     name: "Bank Tech Test",
     repoLink: "https://github.com/Gina-Frankel/bank_tech_tests",
