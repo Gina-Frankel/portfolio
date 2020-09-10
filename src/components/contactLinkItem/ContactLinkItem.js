@@ -1,6 +1,5 @@
 import React from "react";
-// import "./Footer.css";
-
+import { FaBeer } from "react-icons/fa";
 export function ContactLinkItem(props) {
   return (
     <li className="nav-item">
@@ -11,8 +10,9 @@ export function ContactLinkItem(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {props.value.name}
+        <img src={props.value.icon} alt={props.value.name} />
       </a>
+      <FaBeer />
     </li>
   );
 }
