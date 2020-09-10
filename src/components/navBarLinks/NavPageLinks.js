@@ -7,12 +7,17 @@ export function NavPageLinks() {
   return (
     <ul className=" navbar-nav mr-auto ">
       <li className="nav-item">
-        <NavLink to="/" activeClassName="current" className="nav-link">
+        <NavLink
+          to="/"
+          exact={true}
+          activeClassName="current"
+          className="nav-link"
+        >
           About
         </NavLink>
       </li>
       <li className="nav-item">
-        <NavLink to="/Projects" className="nav-link">
+        <NavLink to="/Projects" activeClassName="current" className="nav-link">
           Projects
         </NavLink>
       </li>
