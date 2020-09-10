@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedinIn, FaGithubAlt, FaEnvelope } from "react-icons/fa";
-import { IconContext } from "react-icons";
 
 const contactLinksList = [
   {
