@@ -9,7 +9,5 @@ it("renders correctly", () => {
 
 it("renders a description about developer", () => {
   const wrapper = shallow(<About />);
-  expect(wrapper.text()).toContain(
-    "I am driven by a need to solve problems and to express creativity."
-  );
+  expect(wrapper.text()).toContain("Gina Frankel");
 });

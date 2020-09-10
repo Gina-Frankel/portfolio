@@ -10,5 +10,5 @@ export { ContactLinkList } from "./contactLinkList/ContactLinkList";
 export { About } from "./about/About";
 export { Routes } from "./routes/Routes";
 export { NavBar } from "./navBar/NavBar";
-export { NavPageLinks } from "./navBarLinks/NavPageLinks";
+export { NavBarLinks } from "./navBarLinks/NavBarLinks";
 export { ContactLinkItem } from "./contactLinkItem/ContactLinkItem";

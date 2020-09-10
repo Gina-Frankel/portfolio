@@ -1,13 +1,22 @@
+import React from "react";
+import { FaLinkedinIn, FaGithubAlt, FaEnvelope } from "react-icons/fa";
+
 const contactLinksList = [
   {
     name: "Github",
     link: "https://github.com/Gina-Frankel",
+    icon: <FaGithubAlt />,
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/gina-frankel",
+    icon: <FaLinkedinIn />,
   },
-  { name: "Github CV", link: "https://github.com/Gina-Frankel/CV" },
+  {
+    name: "Email",
+    link: "https://g.frankel22@gmail.com",
+    icon: <FaEnvelope />,
+  },
 ];
 
 export default contactLinksList;
