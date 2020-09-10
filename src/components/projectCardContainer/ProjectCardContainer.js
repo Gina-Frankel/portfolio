@@ -1,6 +1,5 @@
 import React from "react";
 import { ProjectCard } from "../index";
-import "./ProjectCardContainer.css";
 
 export function ProjectCardContainer() {
   return (
