@@ -1,9 +1,9 @@
 import React from "react";
-import "./navPageLinks.css";
+import "./navBarLinks.css";
 
 import { NavLink } from "react-router-dom";
 
-export function NavPageLinks() {
+export function NavBarLinks() {
   return (
     <ul className=" navbar-nav mr-auto ">
       <li className="nav-item">
