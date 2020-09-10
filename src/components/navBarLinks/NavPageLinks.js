@@ -1,19 +1,20 @@
 import React from "react";
+import "./navPageLinks.css";
 
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export function NavPageLinks() {
   return (
     <ul className=" navbar-nav mr-auto ">
       <li className="nav-item">
-        <Link to="/" className="nav-link">
+        <NavLink to="/" activeClassName="current" className="nav-link">
           About
-        </Link>
+        </NavLink>
       </li>
       <li className="nav-item">
-        <Link to="/Projects" className="nav-link">
+        <NavLink to="/Projects" className="nav-link">
           Projects
-        </Link>
+        </NavLink>
       </li>
     </ul>
   );
