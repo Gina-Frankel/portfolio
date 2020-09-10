@@ -12,15 +12,14 @@ export function ContactLinkItem(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src={props.value.icon} alt={props.value.name} />
+        {/* <img src={props.value.icon} alt={props.value.name} /> */}
+
+        <IconContext.Provider
+          value={{ style: { fontSize: "30px", color: "rgb(0, 123, 255)" } }}
+        >
+          <div>{props.value.icon}</div>
+        </IconContext.Provider>
       </a>
-      <IconContext.Provider
-        value={{ style: { fontSize: "30px", color: "rgb(0, 123, 255)" } }}
-      >
-        <div>
-          <FaBeer />
-        </div>
-      </IconContext.Provider>
     </li>
   );
 }
