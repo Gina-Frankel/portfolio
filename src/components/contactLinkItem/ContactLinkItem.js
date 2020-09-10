@@ -1,5 +1,7 @@
 import React from "react";
 import { FaBeer } from "react-icons/fa";
+import { IconContext } from "react-icons";
+
 export function ContactLinkItem(props) {
   return (
     <li className="nav-item">
@@ -12,7 +14,13 @@ export function ContactLinkItem(props) {
       >
         <img src={props.value.icon} alt={props.value.name} />
       </a>
-      <FaBeer />
+      <IconContext.Provider
+        value={{ style: { fontSize: "30px", color: "rgb(0, 123, 255)" } }}
+      >
+        <div>
+          <FaBeer />
+        </div>
+      </IconContext.Provider>
     </li>
   );
 }
