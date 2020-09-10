@@ -3,21 +3,27 @@ import "./About.css";
 
 export function About() {
   return (
-    <div className="container">
-      <div className="row ">
-        <h1 id="developerName" className="pt-5">
-          Gina Frankel
-        </h1>
+    <div className="px-5">
+      <div className="row justify-content-end ">
+        <div className="col-9">
+          <h1 id="developerName" className="text-right">
+            Gina Frankel
+          </h1>
+        </div>
       </div>
-      <div className="row  py-2">
-        <h2 id="jobDescription">Junior Full Stack Developer</h2>
+      <div className="row justify-content-end ">
+        <div className="col-7">
+          <h4 id="lead" className="text-right">
+            Junior Full Stack Developer
+          </h4>
+        </div>
       </div>
-
-      <div className="row py-3">
-        <p id="lead">
-          I am driven by a need to solve problems and to express creativity.{" "}
-        </p>
-      </div>
+      <div className="row  py-5"></div>
+      <div className="row  py-5"></div>
+      <div className="row  py-5"></div>
+      <h4 id="lead">Design </h4>
+      <h4 id="lead"> Code </h4>
+      <h4 id="lead"> Create </h4>
     </div>
   );
 }
