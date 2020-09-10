@@ -5,17 +5,17 @@ export function About() {
   return (
     <div className="px-5 container-fluid vertical-stretch">
       <div className="row justify-content-end ">
-        <div className="col-9">
-          <h1 id="developerName" className="text-right py-3">
+        <div className="">
+          <h1 id="developerName" className="text-right pt-3">
             Gina Frankel
           </h1>
         </div>
       </div>
       <div className="row justify-content-end ">
-        <div className="col-7">
-          <h4 id="lead" className="text-right">
+        <div className="col-lg-7 col-md-12">
+          <h3 id="lead" className="text-right">
             Junior Full Stack Developer
-          </h4>
+          </h3>
         </div>
       </div>
 
