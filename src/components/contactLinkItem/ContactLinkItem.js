@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBeer } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 export function ContactLinkItem(props) {
