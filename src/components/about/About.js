@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-export function About() {
+export function Home() {
   return (
     <div className="px-5 container-fluid vertical-stretch">
       <div className="row justify-content-end ">

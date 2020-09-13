@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {
-  About,
+  Home,
   NavBar,
   ProjectCardContainer,
   ProjectProcessRoutes,
@@ -14,7 +14,7 @@ export function Routes() {
       <Switch>
         <Route exact path="/Projects" component={ProjectCardContainer} />
 
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Home} />
         <ProjectProcessRoutes />
       </Switch>
     </Router>
