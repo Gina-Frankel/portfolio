@@ -13,7 +13,7 @@ export function NavBarLinks() {
           activeClassName="current"
           className="nav-link"
         >
-          About
+          Home
         </NavLink>
       </li>
       <li className="nav-item">
