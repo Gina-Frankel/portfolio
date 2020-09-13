@@ -1,11 +1,21 @@
 #developerName {
   color: rgb(176, 131, 248);
+
   font-size: 7em;
 }
 
 #lead {
   font-size: 3em;
 }
+
+
+
+#jobDescription {
+  font-size: 3em;
+}
+
+
+
 
 .vertical-stretch {
   height: 100vh;
@@ -18,3 +28,4 @@ h4 {
 h4:hover {
   background-color: #aeffae;
 }
+

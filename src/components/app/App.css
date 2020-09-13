@@ -10,7 +10,9 @@ h3 {
 a {
   font-family: "Oswald", sans-serif;
   color: rgb(27, 182, 187);
+
   font-size: 1.6em;
+
 }
 a:hover {
   color: rgb(174, 255, 174);
