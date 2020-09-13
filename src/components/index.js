@@ -7,7 +7,7 @@ export { ProjectProcessContainer } from "./projectProcess/ProjectProcessContaine
 export { ProjectProcessRoutes } from "./projectProcessRoutes/ProjectProcessRoutes";
 export { ProjectProcessLinks } from "./projectProcessLinks/ProjectProcessLinks";
 export { ContactLinkList } from "./contactLinkList/ContactLinkList";
-export { Home } from "./about/About";
+export { Home } from "./home/Home";
 export { Routes } from "./routes/Routes";
 export { NavBar } from "./navBar/NavBar";
 export { NavBarLinks } from "./navBarLinks/NavBarLinks";
