@@ -8,8 +8,9 @@ h3 {
   font-family: "Staatliches", cursive;
 }
 a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: rgb(27, 182, 187);
+  font-size: 1.3em;
 }
 a:hover {
   color: rgb(174, 255, 174);
