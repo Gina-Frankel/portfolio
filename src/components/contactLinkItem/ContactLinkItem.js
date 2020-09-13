@@ -1,5 +1,5 @@
 import React from "react";
-import { IconContext } from "react-icons";
+import "./contactLinkItem.css";
 
 export function ContactLinkItem(props) {
   return (
@@ -10,11 +10,7 @@ export function ContactLinkItem(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <IconContext.Provider
-          value={{ style: { fontSize: "30px", color: "rgb(27, 182, 187)" } }}
-        >
-          <div>{props.value.icon}</div>
-        </IconContext.Provider>
+        <div className="icon">{props.value.icon} </div>
       </a>
     </li>
   );
