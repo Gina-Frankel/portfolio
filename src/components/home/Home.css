@@ -1,14 +1,10 @@
 #developerName {
   color: rgb(176, 131, 248);
-  font-size: 6em;
-}
-
-#jobDescription {
-  font-size: 3em;
+  font-size: 7em;
 }
 
 #lead {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .vertical-stretch {
