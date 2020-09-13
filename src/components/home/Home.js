@@ -6,7 +6,7 @@ export function Home() {
     <div className="px-5 container-fluid vertical-stretch">
       <div className="row justify-content-start ">
         <div className="col-lg-7 col-md-12">
-          <h1 id="developerName" className="text-left pt-3">
+          <h1 id="developerName" className="text-left pt-4">
             Gina Frankel
           </h1>
         </div>
@@ -19,13 +19,13 @@ export function Home() {
         </div>
       </div>
       <div className="fixed-bottom px-5 py-5">
-        <div className="row justify-content-end ">
+        <div className="row justify-content-end px-3 ">
           <h4 id="lead">Design </h4>
         </div>
-        <div className="row justify-content-end ">
+        <div className="row justify-content-end px-3 ">
           <h4 id="lead">Code </h4>
         </div>
-        <div className="row justify-content-end ">
+        <div className="row justify-content-end px-3">
           <h4 id="lead">Create </h4>
         </div>
       </div>
