@@ -1,13 +1,13 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { About } from "../index";
+import { Home } from "../index";
 
 it("renders correctly", () => {
-  const wrapper = shallow(<About />);
+  const wrapper = shallow(<Home />);
   expect(wrapper).toHaveLength(1);
 });
 
 it("renders a description about developer", () => {
-  const wrapper = shallow(<About />);
+  const wrapper = shallow(<Home />);
   expect(wrapper.text()).toContain("Gina Frankel");
 });
