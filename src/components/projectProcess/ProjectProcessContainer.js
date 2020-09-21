@@ -10,7 +10,17 @@ export function ProjectProcessContainer(props) {
       <img
         className="img-fluid"
         src={props.project.process.image}
-        alt="linen"
+        alt="process"
+      ></img>
+    );
+  }
+  let processImage2;
+  if (props.project.process.image2) {
+    processImage2 = (
+      <img
+        className="img-fluid"
+        src={props.project.process.image2}
+        alt="process"
       ></img>
     );
   }
@@ -34,7 +44,7 @@ export function ProjectProcessContainer(props) {
           <p>{props.project.process.introduction}</p>
         </div>
 
-        <div className=" col-sm-12  col-lg-7 pb-5  ">
+        <div className=" col-sm-12  col-lg-7 px-5 ">
           <img
             className="img-fluid"
             src={props.project.image}
@@ -42,10 +52,12 @@ export function ProjectProcessContainer(props) {
           ></img>
         </div>
       </div>
-      <div className="row ">
-        <p>{props.project.process.explanation}</p>
-        {processImage}
-      </div>
+
+      <p>{props.project.process.explanation}</p>
+      <h3 className="text-center">{props.project.process.imageDescription}</h3>
+      {processImage}
+      <h3 className="text-center">{props.project.process.image2Description}</h3>
+      {processImage2}
     </div>
   );
 }
