@@ -31,8 +31,7 @@ export function ProjectProcessContainer(props) {
 
   return (
     <div className="container ">
-      <div className="row pt-5">
-        <div className="col-lg-12 "></div>
+      <div className="row pt-5 intro ">
         <div className="col-lg-5">
           <div className="jumpotron">
             <h1 className="display-4  "> {props.project.name}</h1>
@@ -44,7 +43,7 @@ export function ProjectProcessContainer(props) {
           <p>{props.project.process.introduction}</p>
         </div>
 
-        <div className=" col-sm-12  col-lg-7 px-5 ">
+        <div className=" col-sm-12  col-lg-6  ">
           <img
             className="img-fluid"
             src={props.project.image}
@@ -53,11 +52,24 @@ export function ProjectProcessContainer(props) {
         </div>
       </div>
 
-      <p>{props.project.process.explanation}</p>
-      <h3 className="text-center">{props.project.process.imageDescription}</h3>
-      {processImage}
-      <h3 className="text-center">{props.project.process.image2Description}</h3>
-      {processImage2}
+      <br></br>
+      <br></br>
+      <div className="row  py-5 ">
+        <div className="col-lg-5 ">
+          <p>{props.project.process.explanation}</p>
+        </div>
+        <div className=" col-sm-12  col-lg-7  ">
+          <h3 className="text-center">
+            {props.project.process.imageDescription}
+          </h3>
+          {processImage}
+
+          <h3 className="text-center">
+            {props.project.process.image2Description}
+          </h3>
+          {processImage2}
+        </div>
+      </div>
     </div>
   );
 }
