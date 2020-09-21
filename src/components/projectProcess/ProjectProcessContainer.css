@@ -3,3 +3,7 @@ p {
   text-align: justify;
   white-space: pre-line;
 }
+
+.intro {
+  background-color: #fdfaf2;
+}
