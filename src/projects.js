@@ -25,8 +25,9 @@ const projectList = [
     },
   },
   {
-    name: "Story CV",
+    name: "Customisable CV",
     repoLink: "https://github.com/makersacademy/example-story-website",
+    deployedLink: "https://youthful-hopper-96a077.netlify.app/",
     technologies: "React, Gatsby, Typescript, Sass",
     summary:
       "Work In Progress - This project aims to provide a customisable template for developers to demonstrate their potential",
