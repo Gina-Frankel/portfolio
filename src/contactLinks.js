@@ -14,7 +14,7 @@ const contactLinksList = [
   },
   {
     name: "Email",
-    link: "https://g.frankel22@gmail.com",
+    link: "mailto:g.frankel22@gmail.com",
     icon: <FaEnvelope />,
   },
 ];
