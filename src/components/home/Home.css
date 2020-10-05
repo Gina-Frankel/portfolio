@@ -8,14 +8,9 @@
   font-size: 3em;
 }
 
-
-
 #jobDescription {
   font-size: 3em;
 }
-
-
-
 
 .vertical-stretch {
   height: 100vh;
@@ -29,3 +24,6 @@ h4:hover {
   background-color: #aeffae;
 }
 
+a:hover {
+  text-decoration: none;
+}
