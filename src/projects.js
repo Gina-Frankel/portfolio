@@ -5,6 +5,8 @@ import StatementOrganiserImage from "./static/projectImages/statement-organiser.
 import MySecretGardenImage from "./static/projectImages/garden-project.jpg";
 import MissionCtrlInspirationImage from "./static/projectImages/mission-ctrl-inspiration.jpg";
 import StoryCVImage from "./static/projectImages/story-cv.jpg";
+import CustomisableCvDesign from "./static/projectImages/customisable-cv-designs.jpg";
+import CustomisableCvUserFlow from "./static/projectImages/customisable-cv-user-flow.png";
 
 const projectList = [
   {
@@ -23,17 +25,27 @@ const projectList = [
     },
   },
   {
-    name: "Story CV",
+    name: "Customisable CV",
     repoLink: "https://github.com/makersacademy/example-story-website",
+    deployedLink: "https://youthful-hopper-96a077.netlify.app/",
     technologies: "React, Gatsby, Typescript, Sass",
     summary:
       "Work In Progress - This project aims to provide a customisable template for developers to demonstrate their potential",
     image: StoryCVImage,
-
     process: {
-      introduction:
-        "I am working on a group project with Makers Academy to develop a new way for graduates to showcase their skills. As a result of the current COVID situation, there have been fewer jobs from Makers so the majority of graduates have to seek jobs externally. The problem is how to convey the value and potential of each graduate in a CV. During a design sprint we designed a template which combines storytelling principles, traditional CV and a software development CV. \n\n We are currently building this using Gatsby.",
-      explanation: "",
+      introduction: `I am working on a group project with Makers Academy to develop a new way for graduates to showcase their skills. As a result of the current COVID situation, there have been fewer jobs from Makers so the majority of graduates have to seek jobs externally. The problem is how to convey the value and potential of each graduate in a CV.`,
+      explanation: `The design uses storytelling principles to reconceptualise the CV as a document that presents a person as more than their current skill set.
+
+      The design process involved:
+      \t * Analysing role of the CV in the journey from bootcamp student to developer
+      \t * Plotting the content of the website using a narrative structure
+      \t * Sketching different ideas for the design and evaluating the design in order to arrive at the best solution 
+      \t * Creating wireframes and mockups on sketch
+    `,
+      imageDescription: "Mockups",
+      image: CustomisableCvDesign,
+      image2Description: `User Flow diagram`,
+      image2: CustomisableCvUserFlow,
     },
   },
 
@@ -54,12 +66,12 @@ const projectList = [
     technologies:
       "React, React Router, Javascript, Python, Spacey, Beautiful Soup",
     summary:
-      "Currently developing website to provide historical context about public art so that people can have a deeper understanding of British involvement in the Slave Trade",
+      "Developed website to provide historical context about public art so that people can have a deeper understanding of British involvement in the Slave Trade",
     image: StatueProjectImage,
     deployedLink: "https://problematic-statues.netlify.app/",
     process: {
       introduction:
-        "The aim of this project was to  teach people about slavery through examining public art in England. The project seeks to provide information about statues that represent people involved in slavery. Through looking at these people in more detail an understanding can be built  about the time-scale of slavery, and the context and values which enabled slavery.",
+        "The aim of this project was to  each people about slavery through examining public art in England. The project seeks to provide information about statues that represent people involved in slavery. Through looking at these people in more detail an understanding can be built  about the time-scale of slavery, and the context and values which enabled slavery.",
     },
   },
 
@@ -87,7 +99,7 @@ const projectList = [
     deployedLink: "https://my-secret-garden-dun.vercel.app",
     process: {
       introduction:
-        "This idea behind this website is to help people find gardens in and around London to explore. The learning motivation of the project was to learn a new react framework, Next; explore using React with Mongo DB, express and node js; and use the google maps API. ",
+        "This idea behind this website is to help people find gardens in and around London to explore. The learning motivation of the project was to learn a new react framework, Next; explore using React with Mongo DB, express and node js; and use the google maps API.",
     },
   },
 ];
